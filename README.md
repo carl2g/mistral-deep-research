@@ -13,6 +13,7 @@ This is inspired by https://github.com/dzhng/deep-research.
 - In `.env.template`:
   - set the API keys
   - set mistral model
+    - Try to aim a model with at least 131k context or mistral may throw to much token error
   - then change `.env.template` to `.env.local`
 - Change prompt -> [here](https://github.com/carl2g/mistral-deep-research/blob/master/src/deep-research.ts#L67)
 - Set depth / breadth search -> [here](https://github.com/carl2g/mistral-deep-research/blob/master/src/deep-research.ts#L69)
