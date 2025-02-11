@@ -2,7 +2,7 @@
 This repo is only a playground to test custom deeep-reaserch with Mistral models.
 This is inspired by https://github.com/dzhng/deep-research.
 
-What do yo need to make it work ?
+# What do yo need to make it work ?
 - Docker
 - API KEYS:
   - Brave API key [subscription PRO](https://api-dashboard.search.brave.com/app/subscriptions/subscribe)
