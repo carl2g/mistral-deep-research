@@ -1,0 +1,9 @@
+services:
+  deep-research:
+    build: .
+    volumes:
+      - ./:/app/
+    env_file:
+      - .env.local
+    tty: true
+    stdin_open: true
