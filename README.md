@@ -9,8 +9,11 @@ What do yo need to make it work ?
   - Firecrawls API key [subscription free plan](https://www.firecrawl.dev/pricing)
   - Mistral API key
 
-# Variable to set 
-- Put the API keys in .env, set mistral model, then change .env.template to .env.local
+# Config steps 
+- In `.env.template`:
+  - set the API keys
+  - set mistral model
+  - then change `.env.template` to `.env.local`
 - Change prompt -> [here](https://github.com/carl2g/mistral-deep-research/blob/master/src/deep-research.ts#L67)
 - Set depth / breadth search -> [here](https://github.com/carl2g/mistral-deep-research/blob/master/src/deep-research.ts#L69)
   - Expected number of visited linnks: depth * breadth
