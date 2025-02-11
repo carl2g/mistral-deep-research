@@ -5,7 +5,7 @@ This is inspired by https://github.com/dzhng/deep-research.
 # What do yo need to make it work ?
 - Docker
 - API KEYS:
-  - Brave API key [subscription PRO](https://api-dashboard.search.brave.com/app/subscriptions/subscribe)
+  - Brave API key [subscription free plan](https://api-dashboard.search.brave.com/app/subscriptions/subscribe)
   - Firecrawls API key [subscription free plan](https://www.firecrawl.dev/pricing)
   - Mistral API key
 
