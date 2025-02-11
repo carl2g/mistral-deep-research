@@ -16,7 +16,7 @@ This is inspired by https://github.com/dzhng/deep-research.
   - then change `.env.template` to `.env.local`
 - Change prompt -> [here](https://github.com/carl2g/mistral-deep-research/blob/master/src/deep-research.ts#L67)
 - Set depth / breadth search -> [here](https://github.com/carl2g/mistral-deep-research/blob/master/src/deep-research.ts#L69)
-  - Expected number of visited linnks: depth * breadth
+  - Expected number of visited linnks: (depth + 1) * breadth
 
 # Launch 
 
